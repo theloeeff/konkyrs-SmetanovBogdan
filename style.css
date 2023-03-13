@@ -1,0 +1,206 @@
+:root {
+    --main-gray-color: #868585;
+    --main-white-color: #ffffff;
+    --main-black-color: #303030;
+    --hover-color: #a9a32a;
+}
+
+h1, h2, h0, .descriptor, .text18, .text14 {
+    font-family: Noto Sans, sans-serif;
+    color: var(--main-white-color);
+    text-align: center;
+}
+
+h0 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.text18 {
+    font-size: 18px;
+}
+
+.text14 {
+    font-size: 14px;
+}
+
+.descriptor {
+    font-size: 42px;
+}
+
+.logo {
+    margin-bottom: 88px;
+}
+
+
+@media screen and (max-width: 550px) {
+    h0 {
+        font-size: 30px;
+    }
+    
+    h1 {
+        font-size: 16px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+
+    .descriptor {
+        font-size: 18px;
+    }
+}
+
+.navbar-nav {
+    justify-content: center!important;
+    gap: 170px;
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-nav {
+        gap: 30px;
+    }
+}
+
+.header_wrapper {
+    min-height: 900px;
+
+    background-image: url(img/heroBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.arrow_link {
+    position: relative;
+
+    color: var(--main-white-color);
+    text-decoration: none;
+}
+
+.hero_text .arrow_link {
+    margin-top: 100px;
+}
+
+.arrow_link img {
+    position: absolute;
+    left: -15%;
+    bottom: -80%;
+}
+
+.wrap {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header_wrapper .socials {
+    margin-top: 230px;
+}
+
+.description-block * {
+    color: var(--main-black-color);
+    text-align: left;
+}
+
+.description-block h2 {
+    margin-top: 15px;
+}
+
+.description-block {
+    margin-bottom: 50px;
+}
+
+.tarif * {
+    color: var(--main-black-color);
+    text-align: left;
+}
+
+.banner {
+    padding: 250px 0;
+    min-height: 500px;
+
+    background-image: url(img/bannerbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner p {
+    margin: auto;
+
+    max-width: 680px;
+}
+
+
+
+.clients * {
+    color: var(--main-black-color);
+    text-align: left;
+}
+
+.clients p {
+    margin-left: 36px;
+}
+
+.clients .arrow_link {
+    top: 100px;
+}
+
+.steps * {
+    text-align: left;
+    color: var(--main-black-color);
+}
+
+
+.footer_wrapper {
+    padding-top: 70px;
+    min-height: 730px;
+
+    background-image: url(img/footerbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_wrapper * {
+    text-align: left;
+}
+
+.form {
+
+}
+
+.form hr {
+    max-width: 510px;
+    height: 2px;
+
+    opacity: 100;
+    color: var(--main-white-color);
+}
